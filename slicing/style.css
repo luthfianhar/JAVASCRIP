@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Hanunoo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter" =sans-serif;
+}
+.container-navigasi {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
+  /*font-family: "inter", sans-serif;*/
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  align-items: center;
+}
+.list-navigasi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-header {
+  /*background-color: rgb(22.159,245);*/
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+}
+.logo-headerimg {
+  margin-right: 1px;
+}
+.list-navigasi li {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+.dropdown-menu {
+  position: absolute;
+  background-color: red;
+  list-style: none;
+  top: 60px;
+}
+.dropdown-menu a {
+  width: 150px;
+  background-color: blue;
+  display: block;
+  margin: 8px 12px;
+  text-decoration: none;
+  padding: 12px 0px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.container-banner {
+  /*background-color: blueviolet;*/
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "inter", sans-serif;
+  height: 300px;
+  width: 80%;
+}
+.belajar {
+  /* background-color: chartreuse;*/
+}
+.belajar h1 {
+  color: black;
+  font-size: 30px;
+}
+.belajar h2 {
+  color: orange;
+  font-size: 30px;
+}
+.belajar p {
+  color: #717171;
+  font-size: 15px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.belajar button {
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-size: 20px;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+.container-banner img {
+  /*background-color: #717171;*/
+  width: 300px;
+}
+#benner {
+  background-color: #f5f7fa;
+}
+.spesifik-button {
+  font-size: 50px;
+}
+.button-register:hover {
+  background-color: aqua;
+}
+.user {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.user span {
+  color: white;
+  background-color: red;
+  right: -3px;
+  top: -9px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+}
+.user img {
+  width: 40px;
+}
+.button-register {
+  background-color: #faa613;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  width: 180px;
+  height: auto;
+}
+.belajar button:hover {
+  background-color: aqua;
+}
+.klien-kami {
+  text-align: center;
+}
+.klien-kami h1 {
+  font-size: 40px;
+}
+.klien-kami p {
+  font-size: 20px;
+}
+.klien img {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.apa {
+  text-align: center;
+}
+.apa h1 {
+  font-size: 40px;
+}
+.apa p {
+  font-size: 20px;
+}
+.apa img {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 70px;
+  height: 70px;
+}
+.apa-1 {
+  width: 250px;
+  text-align: center;
+
+  img {
+    width: 80px;
+  }
+}
+.apa-2 {
+  width: 250px;
+  text-align: center;
+  img {
+    width: 80px;
+  }
+}
+.apa-3 {
+  width: 250px;
+  text-align: center;
+  img {
+    width: 80px;
+  }
+}
+.halo {
+  justify-content: space-between;
+  display: flex;
+}
+
+.p1 img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+.p2 h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.p2 p {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+}
+button {
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-size: 20px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 900px;
+}
+.p2 {
+  margin-top: 50px;
+}
+#kurikulumnya {
+  background-color: aqua;
+}
+.container-kurikulumnya {
+  background-color: aquamarine;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  
+}
+.container-kurikulumnya h1{
+  margin-left: 100px;
+  align-content:end ;
+}
+.container-kurikulumnya p{
+  align-content:end ;
+  margin-right: 500px ;
+}
+.icon-menu {
+  display: none;
+}
+@media only screen and (max-width: 745px) {
+  .icon-menu {
+    display: block;
+  }
+  .list-navigasi {
+    display: none;
+  }
+  #banner img {
+    display: none;
+  }
+}
