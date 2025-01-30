@@ -29,7 +29,14 @@ function kurang(){
 function total(){
     let getelement =document.getElementById('hasil').innerHTML;
     console.log(typeof getelement);
-    let total =getelement  + '=';
+    Number =num1.trim
     document.getElementById('hasil').innerHTML = total;
+}
+
+function remove(){
+    let getelement =document.getElementById('hasil new').innerHTML;
+    console.log(typeof getelement);
+    let total =getelement  + ' - ';
+    document.getElementById('hasil new').innerHTML = total;
 }
 
