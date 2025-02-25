@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shipping Details Form</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <section class="container-shipping">
@@ -83,22 +84,24 @@
           <label for="discount-code">Gift Card / Discount code</label>
           <div class="discount-code">
             <input type="text" />
-            <button class="apply">Apply</button>
+            <button class="apply" onclick="btnvoucher()">Apply</button>
           </div>
-          <span class="applied">Voucher Successfully Applied</span>
+          <span class="applied" id="textvoucher">kosong</span>
         </div>
         <div class="summary">
-          <p>Sub total: <span>£316.55</span></p>
-          <p>Tax: <span>£3.45</span></p>
-          <p>Shipping: <span>Free</span></p>
-          <p>Discount: <span>£3.45</span></p>
-          <p class="total">Total: <span>£320.45</span></p>
+          <p>Sub total: <span id="subtotal"></span></p>
+        
+          <p>Shipping: <span id="shipping">2000</span></p>
+          <p>Discount: <span id="discount">0</span></p>
+          <p class="total">Total: <span id="total"></span></p>
         </div>
       </div>
     </section>
     <footer>
       <p>&copy; Imam Sandy Bachtiar 2025. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
 

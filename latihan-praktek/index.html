@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        #home{
+            background-color: white;
+            width: 600px;
+            height: 400px;
+            margin-top: 500px;
+            margin-left: 900px;
+        }
+        .container-home{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-home img{
+    width: 100px;
+}
+.img-home1{
+    margin-top: 50px;
+}
+.img-home img{
+    width: 100px;
+    display: flex;
+    justify-content: right;
+}
+.img-home1 img{
+    width: 400px;
+    display: flex;
+    margin-left: 100px;
+}
+.img-home2{
+    display: flex;
+    margin-top: 100px;
+}
+.button{
+    margin-left: 370px;
+    margin-top: -30px;
+
+    
+    button{
+        font-size: 30px;
+        background-color:green;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <section id="home">
+        <div class="container-home">
+            <img src="./Ellipse 1.png" alt="">
+            <div class="img-home">
+                <img src="./Frame 4.png" alt="">
+            </div>
+        </div>
+        <div class="img-home1">
+                    <img src="./Frame 1.png" alt="">
+                </div>
+                <div class="img-home2">
+                    <div>
+                    <button>
+                        <img src="./heart_outline.png" alt="">
+                    </button>
+                    <button>
+                        <img src="./share.png" alt="">
+                    </button>  
+                    <div class="button">
+                        <button>VIEW MORE</button>
+                    </div>
+                </div>
+                </div>
+    </section>
+           
+                <button onclick="bebascilik()">click</button>
+                <button onclick="bebascilik2()">click2</button>
+                <button onclick="bebascilik3()">click3</button>
+
+
+    <script>
+        function bebascilik(){
+            alert("asdf");
+        }
+        function bebascilik2(){
+            let name =prompt("masukan nama anda");
+            alert("halo"+ name);
+        }
+        function bebascilik3(){
+            let name =prompt("apakah anda yakin?");
+            alert(result);
+        }
+    </script>
+</body>
+</html>
